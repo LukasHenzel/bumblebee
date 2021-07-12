@@ -1,0 +1,74 @@
+{"intents":[
+	{"tag": "keineantwort",
+     "patterns": ["","ddawedadawdawdawd"],
+     "responses": ["Entschuldigung, ich habe es leider nicht verstanden.", "Ich bin mir nicht sicher, ob ich es richtig verstanden habe."],
+     "context": [""]
+    },
+	{"tag":"begrüßung",
+	 "patterns":["Hallo","Abend","Morgen","Guten Morgen","Moin","Hallo was geht","Guten Abend","Was geht","Hey","Hi"],
+	 "responses":["Hey, ich bin C19 und begleite Sie durch den COVID19 Self-Checker oder beantworte Ihnen Fragen rund um das Thema Covid-19|Corona. Was möchten Sie erfahren?"],
+	 "context":[""]
+	},
+	{"tag": "selbsttest",
+     "patterns": ["Selbsttest","Habe ich Corona","Ich möchte schauen, ob ich Corona habe könnte","Habe ich Covid-19","Ich habe Symptome habe ich jetzt Corona","Ich möchte den Selbsttest machen","Ich brauche ihre Hilfe","Könnte es sein, dass ich Corona habe"],
+     "responses": ["Wir starten nun mit dem Selbsttest, um herauszufinden, ob bei Ihnen ein Erkrankungsrisiko besteht. Wir haben hierzu 10 Fragen vorbereitet."],
+     "context": [""]
+	},
+	{"tag": "symptominfo",
+     "patterns": ["Welche Symptome gibt es","Was sind die häufigsten Symptome", "Welche Symptome können bei COVID-19 auftreten", "Welche Symptome können bei COVID auftreten", "Welche Symptome treten bei Corona auf", "Welche Symptome treten am häufigsten auf", "Welche Symptome hat Corona"],
+     "responses": ["Zu den häufigsten Krankheitszeichen zählen trockener Husten, Schnupfen und Fieber über 38°C. Es sind aber auch eine Reihe weiterer Symptome wie Atemnot, Abgeschlagenheit, Muskel- und Gelenkschmerzen sowie Hals- und Kopfschmerzen möglich. Bei vielen Betroffenen ist der Geruchs- und Geschmackssinn vorübergehend beeinträchtigt. Seltener wird über Übelkeit, Bauchschmerzen, Durchfall, Bindehautentzündung, Lymphknotenschwellung und Benommenheit (Somnolenz) berichtet. Bei besonders schweren Verläufen entwickeln die Betroffenen eine Lungenentzündung und müssen sich intensivmedizinisch im Krankenhaus behandeln lassen. Die Symptome und deren Ausprägung unterscheiden sich jedoch individuell von Person zu Person. Es gibt keine „typischen“ Symptome, mit denen sich COVID-19 eindeutig erkennen lässt. Bestimmte Risikofaktoren können einen schweren Krankheitsverlauf begünstigen. Quelle: Zusammen gegen Corona"],
+     "context": [""]
+	},
+	{"tag": "symptombehandlung",
+     "patterns": ["Was soll ich tun wenn ich Symptome habe", "Was ist zu tun bei Symptomen",  "Was ist zu machen bei Anzeichen für Corona",  "Was ist zu tun bei Symptomen die auf Corona hinweisen",  "Ich habe Symptome die auf Corona hindeuten was soll ich tun"],
+     "responses": ["Personen mit leichten Atemwegserkrankungen jeglicher Art sollten zu Hause bleiben, sich telefonisch beraten lassen (Hausarztpraxen, Fieberambulanzen, bundesweite Rufnummer des Kassenärztlichen Notdienstes in Deutschland 116117), nach einem Test fragen und den ärztlichen Anweisungen folgen.	Sollte sich Ihr Zustand während der ersten Woche Ihrer COVID-19-Erkrankung nicht verbessern oder sich verschlechtern, wenden Sie sich unbedingt an Ihren Hausarzt oder Ihre Hausärztin.In Notfällen (z.B. Atemnot) wenden Sie sich an den Notruf 112 oder eine Rettungsstelle. Quelle: RKI"],
+     "context": [""]
+	},
+	{"tag":"coronawarnapp_funktionsweise",
+     "patterns":["Wie funktioniert die Corona-Warn-App", "Was steht hinter der Corona-Warn-App", "Wie ist die Funktionsweise der Corona-Warn-App", "Wie funktioniert die Corona Warn App", "Wie funktioniert die Coronawarnapp", "Was ist die Corona-Warn-App", "Was ist die Corona Warn App", "Was ist die Coronawarnapp"],
+     "responses":["Die Corona-Warn-App nutzt die Bluetooth-Technik, um den Abstand und die Begegnungsdauer zwischen Personen zu messen, die die App installiert haben. Die Smartphones „merken“ sich Begegnungen, wenn die vom RKI festgelegten Kriterien zu Abstand und Zeit erfüllt sind. Dann tauschen die Geräte untereinander Zufallscodes aus. Werden Personen, die die App nutzen, positiv auf das Coronavirus getestet, können sie freiwillig andere Nutzerinnen und Nutzer darüber informieren. Dann werden die Zufallscodes des Infizierten allen Personen zur Verfügung gestellt, die die Corona-Warn-App nutzen. Wenn Sie die App installiert haben, prüft diese für Sie, ob Sie die Corona-positiv getestete Person getroffen haben. Diese Prüfung findet nur auf Ihrem Smartphone statt. Falls die Prüfung positiv ist, zeigt Ihnen die App eine Warnung an. Zu keinem Zeitpunkt erlaubt dieses Verfahren Rückschlüsse auf Sie oder Ihren Standort. Quelle: Zusammen gegen Corona"],
+     "context":[""]
+    },
+	{"tag":"testverfahren",
+     "patterns":["Was sind die Standardtests um Corona nachzuweisen ", "Welche Testverfahren gibt es zum Nachweis von Corona", "Mit was kann ich mich testen", "Mit was kann ich mich testen lassen", "Welche Testverfahren gibt es zum Nachweis von COVID-19", "Was für Tests gibt es"], 
+     "responses":[" PCR-Tests sind der „Goldstandard“ unter den Corona-Tests. Die Probenentnahme erfolgt durch medizinisches Personal – die Auswertung durch Labore.Antigen-Schnelltests: Haben ihren Namen, weil das Ergebnis schnell vorliegt.  Sie können nur durch geschultes Personal durchgeführt werden – dafür wird ähnlich wie beim PCR-Test ein Nasen- oder Rachenabstrich gemacht. Die Auswertung erfolgt im Gegensatz zu den PCR-Tests aber direkt vor Ort. Seit 8. März hat jeder Anspruch auf mindestens einen Schnelltest pro Woche. Selbsttests: Haben ihren Namen, weil diese Tests von jeder oder jedem selbst, bspw. zuhause, durchgeführt werden können. Die Selbsttests sind zur Anwendung durchrivatpersonen bestimmt. Dafür muss die Probenentnahme und -auswertung entsprechend einfach sein. Der Test kann zum Beispiel mit einem Nasenabstrich oder mit Speichel erfolgen. Das Bundesinstitut für Arzneimittel und Medizinprodukte überprüft zusammen mit dem Paul-Ehrlich-Institut Qualität und Aussagekraft der Tests.Schnell- und Selbsttests haben gegenüber den PCR-Tests eine höhere Fehlerrate. Daher sollte nach jedem positiven Schnell- und Selbsttest immer ein PCR-Test zur Bestätigung gemacht werden.Weitere Informationen zu Testverfahren finden Sie hier sowie auf den Seiten des Robert-Koch-Instituts (RKI) und der Bundeszentrale für gesundheitliche Aufklärung (BZgA). Quelle: Zusammen gegen Corona"],
+     "context":[""]
+	},
+	{"tag":"langzeitfolgen",
+     "patterns":["Was sind die Langzeitfolgen einer Erkrankung an Corona", "Gibt es Langzeitfolgen durch Corona","Welche Langzeitfolgen gibt es durch Corona", "Was kann nach einer Coronaerkrankung passieren"],
+     "responses":[" Langzeitfolgen einer COVID-19-Erkrankung werden nicht als einheitliches Phänomen betrachtet, sondern es werden verschiedene Krankheitsbilder beschrieben, die sowohl zeitversetzt als auch parallel in verschiedenen Ausprägungen auftreten können.Bisher lassen sich beispielsweise organspezifische Langzeitfolgen nach Intensivbehandlungen beobachten. Darüber hinaus kommen auch bei milderen Verläufen längerfristige Müdigkeitserscheinungen, Merkstörungen, Gedächtnisprobleme oder Wortfindungsstörungen vor. Es wird auch von ungewöhnlichen Symptomen wie plötzlichem Erbrechen und starkem Schwindel berichtet. Über den klinischen Verlauf von COVID-19 nach sehr milden Krankheitsverläufen oder asymptomatischen Infektionen ist bislang wenig bekannt. Verlässliche, repräsentative Daten zum Anteil der Erkrankten mit Langzeitfolgen liegen derzeitig nicht vor. In einer prospektiven Studie zu COVID-19-Symptomen hatten 13,3% der Erkrankten länger als vier Wochen Symptome, 4,5% länger als acht Wochen, und 2,3% länger als zwölf Wochen. Die Hauptrisikofaktoren für Langzeitfolgen waren ein höheres Alter, ein höherer Body-Mass-Index (BMI), sowie weibliches Geschlecht. Bei schweren Verläufen ist dieser Anteil höher – Daten aus England deuten darauf hin, dass etwa 40% der hospitalisierten Erkrankten längerfristige Unterstützung benötigen.Weitere Informationen zu möglichen Langzeitfolgen finden Sie im Artikel Long Covid - Langzeitfolgen einer COVID-19-Erkrankung. Quelle: Zusammen gegen Corona"],
+     "context":[""]
+    },
+	{"tag":"impfung",
+     "patterns":["Welchen Impfstoffe werden geimpft und an wen", "Wer bekommt welchen Impfstoff beim Impfen", "Welchen Impfstoffe werden geimpft", "Welche Impfstoffe gibt es"],
+     "responses":["In Deutschland sind derzeit vier Impfstoffe zugelassen. Die beiden mRNA-Impfstoffe von BioNTech (Comirnaty®) und Moderna (COVID-19 Vaccine Moderna®) werden für alle impfwilligen Personen empfohlen. Die Impfstoffe von AstraZeneca (Vaxzevria®) und Janssen-Cilag sollen laut Empfehlung der Ständigen Impfkommission (STIKO) vor allem bei Menschen über 60 Jahren eingesetzt werden. Hintergrund sind sehr selten auftretende schwerwiegende Nebenwirkungen (Hirnvenenthrombosen) insbesondere bei einzelnen jüngeren Personengruppen. Mit beiden Impfstoffen können sich laut STIKO aber auch jüngere Menschen impfen lassen, wenn sie das möchten und von ihrem Arzt bzw. ihrer Ärztin umfassend aufgeklärt wurden. Kinder und Jugendliche ab 12 Jahren können mit dem Impfstoff von BioNTech geimpft werden. Er ist seit dem 31. Mai 2021 in der Europäischen Union für diese Altersgruppe zugelassen. Quelle: Bundesgesundheitsministerium"],
+     "context":[""]
+    },
+	{"tag":"coronaviren",
+     "patterns":[" Was ist Corona", "Was ist COVID-19", "Was ist SARS"],
+     "responses":["Coronaviren wurden erstmalig Mitte der 1960er Jahre identifiziert. Der Name Coronavirus bezieht sich auf das Aussehen der Coronaviren unter dem Mikroskop, das an eine Krone oder einen Kranz erinnert (lateinisch corona = Kranz, Krone). Ein Teil der Erkältungskrankheiten des Menschen wird durch Coronaviren ausgelöst.Das neuartige Coronavirus wird als neuartig bezeichnet, da es sich um ein neues Virus der Virusfamilie der Coronaviren handelt, das erstmals im Dezember 2019 identifiziert wurde. Seit dem 11. Februar 2020 trägt dieses Virus, das vorläufig mit 2019-nCoV bezeichnet wurde, einen neuen Namen: SARS-CoV-2. Das Akronym SARS steht hierbei für “Schweres Akutes Atemwegssyndrom”.Die Erkrankung, welche durch SARS-CoV-2 ausgelöst wird, wird mit COVID-19 bezeichnet (Corona Virus Disease 2019). Coronaviren können Menschen oder Tiere infizieren. In manchen Fällen können Coronaviren, die zuvor ausschließlich Tiere infiziert haben, auf den Menschen übertreten, sich dort weiterverbreiten und auch zu schweren Erkrankungen führen. In der Vergangenheit war das bei den Ausbrüchen von SARS-CoV (Severe Acute Respiratory Syndrome) und MERS-CoV (Middle East Respiratory Syndrome) der Fall. Auch bei dem Coronavirus trifft dies vermutlich zu. Quelle: Zusammen gegen Corona"],
+     "context":[""]
+    },
+	{"tag": "inkubation",
+     "patterns": ["was ist Inkubationszeit","Wie ist die Inkubationszeit","Wie lange ist die Inkubationszeit","Was ist die Inkubationszeit"],
+     "responses": ["Die Inkubationszeit gibt die Zeit von der Ansteckung bis zum Beginn der Erkrankung an. Die mittlere Inkubationszeit (Median) wird in den meisten Studien mit 5-6 Tagen angegeben. Quelle: RKI"],
+     "context": [""]
+	},
+	{"tag": "Impfnachweis",
+     "patterns": ["Was ist der digitale Impfnachweis?", "Wozu dient der digitale Impfnachweise"],
+     "responses": ["Der digitale Impfnachweis ist eine zusätzliche Möglichkeit, um Corona-Impfungen zu dokumentieren. Geimpfte können damit Informationen wie Impfzeitpunkt und Impfstoff bequem auf ihren Smartphones – entweder in der CovPass-App oder in der Corona-Warn-App – digital speichern. Quelle: Zusammen n gegen Corona"],
+     "context": [""]
+    },
+    {"tag": "Funktion_Impfnachweis",
+     "patterns": ["Wie funktioniert der digitale Impfnachweis","Wo bekommt man den digitale Impfnachweis her", "Wo krieg ich den digitale Impfnachweis","Wo krieg ich den digitale Impfnachweis her","Wer stellt den digitalen Impfnachweis aus", "Wo kann ich mir den digitalen Impfpass ausstellen lassen"],
+     "responses": ["Der digitale Impfnachweis wird in der Arztpraxis oder in einem Impfzentrum generiert. Nach Eingabe oder Übernahme der Daten wird ein 2D-Barcode erstellt, den die Nutzer auf einem Papierausdruck mitbekommen und später mit der CovPass-App oder der Corona-Warn-App einscannen und nutzen können. Die App speichert die Impfbescheinigung nur lokal auf dem Smartphone. Quelle: Bundesgesundheitsministerium"],
+     "context": [""]
+    },
+	{"tag": "Geltungsbereich _digitalerImpfnachweis",
+     "patterns": ["Gilt der digitale Impfnachweis auch im Ausland","Gilt digitaler Impfnachweis im Ausland","Wo gilt der digitale Impfpass"],
+     "responses": ["Die EU COVID-19 Impfzertifikate können im EU-Ausland sowie in Norwegen, Island, Liechtenstein und in der Schweiz genutzt werden. Das Impfzertifikat gilt als Nachweis für erfolgte Corona-Impfungen. Auch die digitalen Genesenenzertifikate und Testzertifikate sind innerhalb Europas gültig. Dabei kann ein Nachweis als ausgedruckter QR-Code oder als Scan in der CovPass-App vorgezeigt werden. Auch der gelbe Impfpass gilt weiterhin als Nachweis. Bitte beachten Sie, dass eine ausreichende Wirksamkeit des Impfschutzes erst 14 Tage nach der letzten notwendigen Impfung eintritt. Informationen über die in den europäischen Ländern jeweils geltenden Corona-Maßnahmen und Reisebeschränkungen finden Sie unter anderem auf der Seite: https://reopen.europa.eu/de. Dort finden Sie auch Hinweise, welche persönlichen Informationen und Dokumente Sie bei der Einreise vorlegen müssen. Die Aktualisierung obliegt den jeweiligen Ländern. Zur Anerkennung der Zertifikate auf internationaler Ebene laufen derzeit noch Gespräche. Quelle: RKI"],
+     "context": [""]
+    }
+	
+	]
+}
