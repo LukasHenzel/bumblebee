@@ -48,7 +48,7 @@ def bow(sentence, words, show_details=True):
     return(np.array(bag))
 
 def predict_class(sentence, model):
-    # Prediction des Modells mit einer Mindestwahrscheinlichkeit von 25% -_> Kleine Werte werden direkt aussortiert
+    # Prediction des Modells mit einer Mindestwahrscheinlichkeit von 25% -> Kleine Werte werden direkt aussortiert
     p = bow(sentence, words)
     res = model.predict(np.array([p]))[0]
     ERROR_THRESHOLD = 0.25
