@@ -4,8 +4,8 @@ Das Ziel unseres Projektes widmet sich der Erstellung eines Chatbots mit Hilfe v
 Das Datenset, welches für den Chatbot verwendet wurde, ist in dem Github-Ordner Code unter dem Namen intents.json zu finden.
 
 Gruppenmitglieder:
-Anne-Sophie Amberger 7053036
-Lukas Henzel 2539341
+Anne-Sophie Amberger und
+Lukas Henzel 
 
 Ausführung des Quellcodes: 
 Um den Quellcode auszuführen wurde eine spezielle Ananconda Umgebung(Diese Datei befindet sich hier in Github unter dem Ordner Umgebung) verwendet. Um die gleiche Entwicklungsumgebung zu erzeugen, kann eine YAML-Datei importiert werden. Dies geht mit dem folgenden Befehl: conda env create -f environment.yml
