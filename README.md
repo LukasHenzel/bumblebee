@@ -1,7 +1,7 @@
 # C19 - Der Chatbot zum Thema Corona
 Unser Projekt widmet sich der Erstellung eines Chatbots mit Hilfe von Lernalgorithmen rund um das Thema Corona. Hierzu haben wir im Laufe dieses Projektes den C19 Chatbot entwickelt. Der User sollte in der Lage sein dem Chatbot Fragen zum Thema Corona zu stellen und einen Selbsttest durchführen zu können, welcher dem Nutzer einen Indikator  bezüglich einer möglichen Erkrankung gibt.
-Das Datenset zu den Symptomen einer Corona-Erkranung im Frühstadium ist unter folgender URL zu finden: https://www.kaggle.com/martuza/early-stage-symptoms-of-covid19-patients .   
-Das Datenset, welches für den Chatbot verwendet wurde ist unter dem Ordner Code zu finden(intents.json).
+Das Datenset zu den Symptomen einer Corona-Erkranung im Frühstadium ist auf Kaggle unter folgender URL zu finden: https://www.kaggle.com/martuza/early-stage-symptoms-of-covid19-patients .   
+Das Datenset, welches für den Chatbot verwendet wurde, ist unter dem Ordner Code zu finden(intents.json).
 
 Die Gruppe bumblebee besteht aus 2 Personen: 
 Anne-Sophie Amberger 7053036
