@@ -1,4 +1,4 @@
-# bumblebee
+# Projektteam bumblebee
 Erstellung eines Chatbots mit Hilfe von Lernalgorithmen rund um das Thema Corona. Hierzu haben wir im Laufe dieses Projektes den C19 Chatbot entwickelt. Der User sollte in der Lage sein dem Chatbot Fragen zum Thema Corona zu stellen und einen Selbsttest durchführen zu können, welcher dem Nutzer einen Indikator  bezüglich einer möglichen Erkrankunbg gibt. 
 
 Die Gruppe bumblebee besteht aus 2 Personen: 
